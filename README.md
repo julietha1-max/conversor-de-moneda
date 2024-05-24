@@ -5,10 +5,10 @@
 
 https://github.com/julietha1-max/conversor-de-moneda/assets/157641360/71b5f3bb-3adb-489c-8fd5-046d9014ef84
 <p>Construido con 🛠️ </p>
-<p>✨IntellijijCommunity - Programacion.
-   ✨Gson - Convierte los Objetos a representación JSON para manipular la información de la API 
-   ✨Java - lenguaje </p>
+<p>💻IntellijijCommunity - Programacion.<br>
+   📚Gson - Convierte los Objetos a representación JSON para manipular la información de la API <br>
+   ✨Java - lenguaje </p><br>
 
    <h3>Autor ✒️</h3>
-   <p>✨JULIETH VARGAS</p>
+   <p>JULIETH VARGAS</p>
 
