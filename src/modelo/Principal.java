@@ -13,7 +13,7 @@ public class Principal {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         Scanner teclado = new Scanner(System.in);
-        Scanner lectura = new Scanner(System.in);
+        
         int opcion =0;
         int numero ;
 
@@ -43,7 +43,6 @@ public class Principal {
                 HttpRequest request = HttpRequest.newBuilder().uri(URI.create(direccionFinal)).build();
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
-                System.out.println(json);
                 Gson gson = new Gson();
                 Moneda miConversion = gson.fromJson( json , Moneda.class);
                 System.out.println("El valor de"+" "+ numero +" "+"USD"+" "+"corresponde al valor final de ==> " +miConversion+""+"ARS");}
@@ -58,7 +57,6 @@ public class Principal {
                 HttpRequest request = HttpRequest.newBuilder().uri(URI.create(direccionFinal)).build();
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
-                System.out.println(json);
                 Gson gson = new Gson();
                 Moneda miConversion = gson.fromJson( json , Moneda.class);
                 System.out.println("El valor de "+" "+ numero +" "+"ARS" +" "+"corresponde al valor final de ==> " +miConversion + " "+ "USD");
@@ -73,7 +71,6 @@ public class Principal {
                 HttpRequest request = HttpRequest.newBuilder().uri(URI.create(direccionFinal)).build();
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
-                System.out.println(json);
                 Gson gson = new Gson();
                 Moneda miConversion = gson.fromJson( json , Moneda.class);
                 System.out.println("El valor de "+" "+ numero +" "+"USB" +" "+"corresponde al valor final de ==> " +miConversion + " "+ "BRL");
@@ -88,7 +85,6 @@ public class Principal {
                 HttpRequest request = HttpRequest.newBuilder().uri(URI.create(direccionFinal)).build();
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
-                System.out.println(json);
                 Gson gson = new Gson();
                 Moneda miConversion = gson.fromJson( json , Moneda.class);
                 System.out.println("El valor de "+" "+ numero +" "+"BRL" +" "+"corresponde al valor final de ==> " + miConversion +" "+ "USD");
@@ -102,9 +98,7 @@ public class Principal {
                 HttpRequest request = HttpRequest.newBuilder().uri(URI.create(direccionFinal)).build();
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
-                System.out.println(json);
                 Gson gson = new Gson();
-
                 Moneda miConversion = gson.fromJson( json , Moneda.class);
                 System.out.println("El valor de "+" "+ numero +" "+"USD" +" "+"corresponde al valor final de ==> " +miConversion +" "+ "COP");
             }
@@ -117,12 +111,10 @@ public class Principal {
                 HttpRequest request = HttpRequest.newBuilder().uri(URI.create(direccionFinal)).build();
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
                 String json = response.body();
-                System.out.println(json);
                 Gson gson = new Gson();
                 Moneda miConversion = gson.fromJson( json , Moneda.class);
                 System.out.println("El valor de "+" "+ numero +" "+"COP" +" "+"corresponde al valor final de ==> " +miConversion + " "+ "USD");
-            }}}
-            }
+            }}}}
 
 
 
