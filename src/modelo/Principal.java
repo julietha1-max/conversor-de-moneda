@@ -16,12 +16,13 @@ public class Principal {
         
         int opcion =0;
         int numero ;
-
-
+        
+        System.out.println("***********************");
+        System.out.println("SEA BIENVENIDO/A AL CONVERSOR DE MONEDA");
+       
         while (opcion !=7){
 
             System.out.println("***********************");
-            System.out.println("sea bienvenido/a al conversor de moneda");
             System.out.println("1) Dolar =>> peso argentino");
             System.out.println("2) peso argentino =>> Dolar");
             System.out.println("3) Dolar =>> Real brasileño");
