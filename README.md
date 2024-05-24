@@ -3,7 +3,7 @@
 
 <P>✨Acontinuacion se muestra un video del funcionamiento del programa.</P>
 
-https://github.com/julietha1-max/conversor-de-moneda/assets/157641360/29df27cd-f551-4a24-8451-e02ae76dc74f
+https://github.com/julietha1-max/conversor-de-moneda/assets/157641360/73f0ac3c-dd34-4587-a830-adf4e54fb2f4
 
 <p>Construido con 🛠️ </p>
 <p>💻IntellijijCommunity - Programacion.<br>
